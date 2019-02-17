@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    app:behavior_hideable="true"
+    android:padding="15dip"
+    android:background="#e9e9e9"
+    app:behavior_peekHeight="50dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:text="Additional Info"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dip"
+    android:hint="Full Name"
+        android:inputType="text"
+    android:id="@+id/edt_full_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:hint="Age"
+        android:inputType="number"
+        android:id="@+id/edt_age"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:hint="Weight (KGs)"
+        android:id="@+id/edt_weight_in_kg"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:hint="Height (CM)"
+        android:id="@+id/edt_height"/>
+
+</LinearLayout>

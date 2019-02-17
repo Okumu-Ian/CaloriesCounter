@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:orientation="vertical"
+    tools:ignore="RtlSymmetry">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME: "
+        android:textSize="17sp"
+        android:layout_margin="5dip"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE: "
+        android:textSize="17sp"
+        android:layout_margin="5dip"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WEIGHT: "
+        android:textSize="17sp"
+        android:layout_margin="5dip"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEIGHT: "
+        android:textSize="17sp"
+        android:layout_margin="5dip"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI: "
+        android:textSize="17sp"
+        android:layout_margin="5dip"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMR: "
+        android:textSize="17sp"
+        android:layout_margin="5dip"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Target Weight: "
+        android:textSize="17sp"
+        android:layout_margin="5dip"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Target Height: "
+        android:textSize="17sp"
+        android:layout_margin="5dip"
+        android:textColor="@android:color/black" />
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_marginTop="10dip"
+        android:id="@+id/graphView"/>
+
+</LinearLayout>
